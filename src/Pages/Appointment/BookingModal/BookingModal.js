@@ -50,7 +50,7 @@ const BookingModal = ({openBooking, handleBookingClose, booking, date, setBookin
         }
         // send to server
         // console.log(appointment);
-        fetch(`http://localhost:5000/appointments`, {
+        fetch(`https://desolate-shelf-41361.herokuapp.com/appointments`, {
             method: "POST", 
             headers: {
                 'content-type': 'application/json'
